@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POOLS</title>
+    <link rel="stylesheet" type="text/css" href="style.css"></head>
+<body onload="Gallery()">
+    <h1>dreaming pool</h1>
+    <div id="gallery"></div>
+
+
+<script>
+    function Gallery(){
+        for (i=1;i<=28;i++){
+            let img=document.createElement("img");
+            img.src=i+".jpg";
+            img.style.position='relative';
+            img.style.left='100';
+
+            document.getElementById('gallery').appendChild(img);
+         
+        }
+    }
+</script>
+</body>
+</html>

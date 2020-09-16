@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+
+body{
+    color:lightblue;
+    font-family: 'Karla', sans-serif;
+   background-color: rgb(231, 248, 253);
+
+}
+h1{
+    text-align:center;
+    font-weight: normal;
+    font-size: 5em;
+}
+
+#gallery{
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+img{
+    width:400px;
+    height:auto;
+    margin:20px;
+}
+
+img:hover{
+    width:520px;
+    box-shadow:20px 20px lightblue;
+    border:1px solid lightblue;
+    z-index: 2;
+}
